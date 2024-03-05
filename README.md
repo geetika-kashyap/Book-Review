@@ -1,0 +1,1 @@
+This project is about the rating and the imformation about the book. This contains HTML, CSS and JavaScript. Html for input, label , buttons and a from for adding the book.CSS is for styling and intractive experience of the viewer.JavaScript contains the dom manipulation , asyncronous javascript, some function for adding book , deleting book , voteup and votedown.
