@@ -1,0 +1,90 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+}
+
+.book {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* transition: box-shadow 0.3s; */
+}
+
+.book:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.book h3 {
+  margin: 0;
+  color: #333;
+}
+
+.book p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.book-actions {
+  margin-top: 10px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #548687;
+  color: #f3f1bc;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 12px;
+  margin-right: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#addButton {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color:#548687;
+  color: #f3f1bc;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#addButton:hover {
+  background-color: #0056b3;
+}
+
+#addForm {
+  display: none;
+}
+
+#addForm input {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+  /* box-sizing: border-box; */
+}
+
+#submitButton {
+  background-color:#548687;
+  color: #f3f1bc;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#submitButton:hover {
+  background-color: #0056b3;
+}
